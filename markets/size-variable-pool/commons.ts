@@ -13,11 +13,11 @@ import {
 
 export const CommonsConfig: ICommonConfiguration = {
   MarketId: "Commons Size Variable Pool Market",
-  ATokenNamePrefix: "Ethereum",
-  StableDebtTokenNamePrefix: "Ethereum",
-  VariableDebtTokenNamePrefix: "Ethereum",
-  SymbolPrefix: "Eth",
-  ProviderId: 8080,
+  ATokenNamePrefix: "",
+  StableDebtTokenNamePrefix: "",
+  VariableDebtTokenNamePrefix: "",
+  SymbolPrefix: "",
+  ProviderId: 314159265,
   OracleQuoteCurrencyAddress: ZERO_ADDRESS,
   OracleQuoteCurrency: "USD",
   OracleQuoteUnit: "8",
