@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { HardhatNetworkForkingUserConfig } from "hardhat/types";
-import { ethers } from 'hardhat'
+import { ethers } from 'ethers'
 import {
   iParamsPerNetwork,
   eEthereumNetwork,
