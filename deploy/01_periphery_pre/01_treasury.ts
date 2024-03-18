@@ -39,6 +39,11 @@ const func: DeployFunction = async function ({
   deployments,
   ...hre
 }: HardhatRuntimeEnvironment) {
+  if(1 > 0) {
+    console.log("[Deployment][WARNING] Not deploying treasury proxy");
+    return;
+  }
+
   const { deploy, save } = deployments;
   const { deployer } = await getNamedAccounts();
   const { ReserveFactorTreasuryAddress } = await loadPoolConfig(MARKET_NAME);
